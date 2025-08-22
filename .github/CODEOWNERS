@@ -1,0 +1,43 @@
+# CODEOWNERS file for security-api-366
+# Global owners - will be requested for all PRs
+* @Armor-test/grp-payments @Armor-test/dept-release @Armor-test/team-notifications
+
+# Directory ownership
+/plugins/ @Armor-test/squad-mobile @Armor-test/grp-payments @Armor-test/dept-data
+/shared/ @Armor-test/grp-api @Armor-test/squad-ml
+/scripts/ @Armor-test/dept-billing @Armor-test/team-research @Armor-test/dept-security
+/static/ @Armor-test/dept-reporting @Armor-test/squad-frontend @Armor-test/grp-storage
+/pages/ @Armor-test/dept-billing @Armor-test/unit-devops
+/tools/ @Armor-test/dept-security @Armor-test/team-security @Armor-test/dept-test
+/web/ @Armor-test/squad-performance @Armor-test/grp-api
+/auth/ @Armor-test/squad-mobile @Armor-test/team-governance @Armor-test/squad-api
+/hooks/ @Armor-test/team-notifications @Armor-test/squad-performance @Armor-test/grp-payments
+/app/ @Armor-test/dept-notifications @Armor-test/team-frontend
+/deploy/ @Armor-test/grp-ui @Armor-test/squad-api @Armor-test/grp-integration
+/internal/ @Armor-test/grp-api @Armor-test/squad-ml @Armor-test/team-research
+/controllers/ @Armor-test/dept-release @Armor-test/dept-reporting @Armor-test/team-research
+/dist/ @Armor-test/dept-logging @Armor-test/squad-mobile
+
+# File type ownership
+*.yml @Armor-test/dept-identity @Armor-test/unit-cloud @Armor-test/squad-performance
+*.java @Armor-test/dept-reliability @Armor-test/team-research @Armor-test/squad-apps
+*.swift @Armor-test/team-research @Armor-test/unit-devops @Armor-test/squad-ux
+*.yaml @Armor-test/squad-qa @Armor-test/squad-product
+*.scala @Armor-test/grp-payments @Armor-test/squad-research
+*.cpp @Armor-test/squad-reporting @Armor-test/squad-database
+*.xml @Armor-test/dept-release @Armor-test/squad-qa @Armor-test/squad-performance
+*.graphql @Armor-test/squad-frontend @Armor-test/dept-notifications @Armor-test/dept-identity
+*.html @Armor-test/squad-product @Armor-test/dept-data @Armor-test/dept-ui
+*.go @Armor-test/grp-integration @Armor-test/unit-governance @Armor-test/dept-security
+*.lock @Armor-test/dept-automation @Armor-test/dept-reliability @Armor-test/squad-ml
+*.jsx @Armor-test/dept-reporting @Armor-test/dept-automation @Armor-test/dept-api
+*.h @Armor-test/grp-api @Armor-test/squad-ml
+*.config @Armor-test/dept-reliability @Armor-test/dept-automation
+*.ini @Armor-test/dept-data @Armor-test/squad-ml @Armor-test/grp-api
+
+# Security and special files
+/src/**/security/ @Armor-test/security @Armor-test/compliance
+package.json @Armor-test/dependency-team @Armor-test/security
+.github/workflows/ @Armor-test/ci-team @Armor-test/devops
+Jenkinsfile @Armor-test/ci-team @Armor-test/devops
+Dockerfile @Armor-test/devops @Armor-test/infra
